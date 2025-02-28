@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class HostelManagementSystem {
     public static void main(String[] args) {
         Scanner sc;
-        File file = new File("HMS\\input111.txt");
+        File file = new File("HMS//input111.txt");
         if (file.exists()) {
             try {
                 sc = new Scanner(file);
